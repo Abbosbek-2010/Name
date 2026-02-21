@@ -196,7 +196,7 @@ const Organick = () => {
 
       <div className="image2">
         <div className="text text2">
-          <h3>Offer!!</h3>
+          <h3>Offer!</h3>
           <h1>Get 10% off <br /> on Vegetables</h1>
         </div>
       </div>
