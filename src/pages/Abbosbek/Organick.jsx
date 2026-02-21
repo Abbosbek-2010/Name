@@ -6,22 +6,22 @@ import { CiSearch } from "react-icons/ci";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { CiStar } from "react-icons/ci";
 import Photo from '../../assets/PPP.png'
-import org from '../../assets/VeganFood.png'
-import org2 from "../../assets/Group2.png"
-import P1 from '../../assets/Photo1.png'
-import P2 from '../../assets/Photo2.png'
-import P3 from '../../assets/Photo3.png'
-import P4 from '../../assets/image13.png'
-import P5 from '../../assets/image14.png'
-import P6 from '../../assets/Photo4.png'
-import P7 from '../../assets/Photo5.png'
-import P8 from "../../assets/Photo6.png"
-import prof from '../../assets/Photo1.png'
-import P9 from '../../assets/Photo8.png'
-import P10 from '../../assets/Photo9.png'
-import P11 from '../../assets/Photo10.png'
-import P12 from '../../assets/Photo1.png'
-import dala from '../../assets/Image1.png'
+import org from '../../assets/Vegan Food.png'
+import org2 from '../../assets/Group 2.svg'
+import P1 from '../../assets/Photo (1).png'
+import P2 from '../../assets/Photo (2).png'
+import P3 from '../../assets/Photo (3).png'
+import P4 from '../../assets/image 13.png'
+import P5 from '../../assets/image 14.png'
+import P6 from '../../assets/Photo (4).png'
+import P7 from '../../assets/Photo (5).png'
+import P8 from '../../assets/Photo (6).png'
+import prof from '../../assets/Photo (1).jpg'
+import P9 from '../../assets/Photo (8).png'
+import P10 from '../../assets/Photo (9).png'
+import P11 from '../../assets/Photo (10).png'
+import P12 from '../../assets/Photo (11).png'
+import dala from '../../assets/Image (1).png'
 import follow from '../../assets/Follow.png'
 
 let Cards = [
@@ -196,7 +196,7 @@ const Organick = () => {
 
       <div className="image2">
         <div className="text text2">
-          <h3>Offer!</h3>
+          <h3>Offer!!</h3>
           <h1>Get 10% off <br /> on Vegetables</h1>
         </div>
       </div>
