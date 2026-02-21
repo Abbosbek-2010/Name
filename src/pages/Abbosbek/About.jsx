@@ -1,6 +1,26 @@
 import React from 'react'
 import './About.css'
-
+import Logo from "../../assets/Logo.png"
+import { Link } from 'react-router-dom'
+import { CiSearch } from "react-icons/ci";
+import { MdOutlineShoppingCart } from "react-icons/md";
+import nine from '../../assets/Image9.png'
+import icon1 from '../../assets/Icon.svg'
+import icon2 from '../../assets/Icon1.svg'
+import ten from "../../assets/image10.png"
+import icon_three from "../../assets/Icon3.svg"
+import fors from "../../assets/Icon4.svg"
+import fives from "../../assets/Icon5.svg"
+import sixss from "../../assets/Icon6.svg"
+import id1 from "../../assets/Image11.png"
+import id2 from "../../assets/Image12.png"
+import id3 from "../../assets/Image13.png"
+import { FaFacebook } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import nuts from "../../assets/Image14.png"
+import nuts1 from "../../assets/Image15.png"
+import nuts2 from "../../assets/Image16.png"
+import follow from "../../assets/follow.png"
 
 
 const About = () => {

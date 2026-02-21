@@ -6,13 +6,13 @@ import { CiSearch } from "react-icons/ci";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { CiStar } from "react-icons/ci";
 import Photo from '../../assets/PPP.png'
-import org from '../../assets/Vegan Food.png'
-import org2 from '../../assets/Group 2.svg'
+import org from '../../assets/VeganFood.png'
+import org2 from '../../assets/Group2.svg'
 import P1 from '../../assets/Photo1.png'
 import P2 from '../../assets/Photo2.png'
 import P3 from '../../assets/Photo3.png'
-import P4 from '../../assets/image 13.png'
-import P5 from '../../assets/image 14.png'
+import P4 from '../../assets/image_13.png'
+import P5 from '../../assets/images14.png'
 import P6 from '../../assets/Photo4.png'
 import P7 from '../../assets/Photo5.png'
 import P8 from '../../assets/Photo6.png'
