@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Shop.css"
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import Logo from "../../assets/Logo.png"
 import { CiSearch } from "react-icons/ci";
 import { MdOutlineShoppingCart } from "react-icons/md";
@@ -27,28 +27,32 @@ let Cards = [
     name: 'Calabrese Broccoli',
     oldprice: '$20.00',
     price: '$13.00',
-    btn: "Vegetable"
+    btn: "Vegetable",
+    id: 1
   },
   {
     img: P2,
     name: 'Fresh Banana Fruites',
     oldprice: '$20.00',
     price: '$14.00',
-    btn: "Fresh"
+    btn: "Fresh",
+    id: 2
   },
   {
     img: P3,
     name: 'White Nuts',
     oldprice: '$20.00',
     price: '$15.00',
-    btn: "Millets"
+    btn: "Millets",
+    id: 3
   },
   {
     img: P4,
     name: 'Vegan Red Tomato',
     oldprice: '$20.00',
     price: '$17.00',
-    btn: "Vegetable"
+    btn: "Vegetable",
+    id: 4
   },
 
   {
@@ -56,28 +60,32 @@ let Cards = [
     name: 'Mung Bean',
     oldprice: '$20.00',
     price: '$11.00',
-    btn: "Health"
+    btn: "Health",
+    id: 5
   },
   {
     img: P6,
     name: 'Brown Hazelnut',
     oldprice: '$20.00',
     price: '$12.00',
-    btn: "Nuts"
+    btn: "Nuts",
+    id: 6
   },
   {
     img: P7,
     name: 'Eggs',
     oldprice: '$20.00',
     price: '$17.00',
-    btn: "Fresh"
+    btn: "Fresh",
+    id: 7
   },
   {
     img: P8,
     name: 'Zelco Suji Elaichi Rusk',
     oldprice: '$20.00',
     price: '$15.00',
-    btn: "Fresh"
+    btn: "Fresh",
+    id: 8
   },
 
 
@@ -86,32 +94,37 @@ let Cards = [
     name: 'Mung Bean',
     oldprice: '$20.00',
     price: '$11.00',
-    btn: "Health"
+    btn: "Health",
+    id: 9
   },
   {
     img: ps1,
     name: 'White Hazelnut',
     oldprice: '$20.00',
     price: '$12.00',
-    btn: "Nuts"
+    btn: "Nuts",
+    id: 10
   },
   {
     img: ps2,
     name: 'Fresh Corn',
     oldprice: '$20.00',
     price: '$17.00',
-    btn: "Fresh"
+    btn: "Fresh",
+    id: 11
   },
   {
     img: ps3,
     name: 'Organic Almonds',
     oldprice: '$20.00',
     price: '$15.00',
-    btn: "Fresh"
+    btn: "Fresh",
+    id: 12
   },
 ]
 
 const Shop = () => {
+  let navigate = useNavigate()
   return (
     <div>
       <header className='head_one'>
@@ -156,7 +169,7 @@ const Shop = () => {
       <div className="box bor">
         {
               Cards.map((item, index)=> (
-                <div key={index} className='card'>
+                <div key={index} className='card' onClick={()=> navigate(`/shop_single/${item.id}`)}>
                   <button>{item.btn}</button>
                   <img src={item.img} alt="" />
                   <h3>{item.name}</h3>

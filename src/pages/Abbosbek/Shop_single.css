@@ -1,0 +1,120 @@
+.bg-anor{
+    background-image: url(../../assets/banner.png);
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+}
+.bg-anor h1{
+    text-align: center;
+    padding-top: 160px;
+    font-size: 60px;
+    font-weight: 800;
+    color: #274C5B;
+}
+.cards_section{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.single_img{
+    width: 580px;
+    height: 580px;
+}
+.K{
+    margin-top: 105px;
+}
+.K h1{
+    color: #274C5B;
+    font-size: 40px;
+    font-weight: 600;
+}
+.index{
+    margin-top: 10px;
+}
+.PRR{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    align-items: center;
+}
+.PRR p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #B8B8B8;
+}
+.PRR del{
+    color: #B8B8B8;
+}
+.PRR h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #274C5B;
+}
+.dum{
+    color: #525C60;
+    margin-top: 27px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.quan{
+    display: flex;
+    margin-top: 35px;
+    align-items: center;
+    gap: 22px;
+}
+.quan h2{
+    color: #274C5B;
+    font-size: 20px;
+    font-weight: 700;
+}
+.quan div{
+    width: 100px;
+    height: 65px;
+    color: #274C5B;
+    border-radius: 15px;
+    border: 2px solid #274C5B;
+    text-align: center;
+    padding-top: 20px;
+}
+.quan button{
+    width: 180px;
+    height: 65px;
+    background-color: #274C5B;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.bot div button{
+    padding: 23px 60px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #274C5B;
+    border: none;
+    border-radius: 16px;
+}
+#info{
+    background-color: #EFF6F1;
+    color: #274C5B;
+}
+.bot div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 90px;
+}
+.bot p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #525C60;
+    text-align: center;
+    margin-top: 27px;
+}
+.d{
+    text-align: center;
+    color: #274C5B;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 100px;
+}

@@ -1,0 +1,287 @@
+body{
+    overflow-x: hidden;
+}
+.logo{
+    width: 37px;
+    height: 54px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: rgba(39, 76, 91, 1);
+}
+ul li a{
+    text-decoration: none;
+    color: rgba(39, 76, 91, 1);
+    font-weight: 700;
+    font-size: 20px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+.lin{
+    text-decoration: none;
+}
+.cart{
+    width: 160px;
+    height: 66px;
+    border-radius: 33px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 20px;
+}
+.cart_one{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: rgba(39, 76, 91, 1);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.cart h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.head_one{
+    margin-top: 30px;
+}
+.bg-cont{
+    background-image: url(../../assets/Image\ \(20\).png);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+.bg-cont h1{
+    text-align: center;
+    padding-top: 150px;
+    color: #274C5B;
+    font-size: 50px;
+    font-weight: 700;
+}
+.yor_div{
+    width: 70px;
+    height: 70px;
+    border-radius: 11px;
+    background-color: #F4F4F4;
+    text-align: center;
+    padding-top: 15px;
+}
+.yor{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    width: max-content;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.yor div h4{
+    color: #274C5B;
+    font-size: 22px;
+    font-weight: 700;
+}
+.yor div p{
+    color: #525C60;
+    font-size: 18px;
+    font-weight: 400;
+}
+.sect13{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 200px;
+    align-items: center;
+}
+.sect13 h1{
+    font-size: 38px;
+    font-weight: 700;
+    color: #274C5B;
+    margin-top: 23px;
+}
+.dummy{
+    color: #525C60;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 14px;
+}
+.sect14{
+    background-image: url(../../assets/Image\ \(22\).png);
+    width: 95%;
+    height: 75vh;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+.loc{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    align-items: center;
+}
+.our{
+    width: 414px;
+    height: 414px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    margin-left: 60%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.our h3{
+    font-size: 32px;
+    font-weight: 400;
+    color: #7EB693;
+    font-family: cursive;
+}
+.our h1{
+    font-size: 42px;
+    font-weight: 800;
+    color: #274C5B;
+    margin-top: 5px;
+}
+.est{
+    color: #525C60;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.loc h4{
+    font-size: 18;
+    font-weight: 700;
+    color: #525C60;
+}
+.loc h4 span{
+    font-size: 18px;
+    font-weight: 400;
+    color: #525C60;
+}
+.mess label{
+    display: block;
+    color: #274C5B;
+    font-size: 18px;
+    font-weight: 600;
+}
+.mess input{
+    width: 500px;
+    height: 65px;
+    border-radius: 15px;
+    border: 1px solid #7EB693;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+.area{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+.mess input::placeholder{
+    color: #ABABAB;
+}
+.sect15{
+    margin-top: 80px;
+}
+.mess2 label{
+    margin-top: 25px;
+}
+.mess2{
+    margin-left: 100px;
+}
+.mess2 textarea{
+    min-width: 91%;
+    min-height: 240px;
+    max-width: 91%;
+    max-height: 240px;
+    border-radius: 15px;
+    border: 1px solid #7EB693;
+}
+.mess2 textarea::placeholder{
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ABABAB;
+}
+.mess2 button{
+    width: 200px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: #274C5B;
+    color: white;
+    border: none;
+    font-size: 16px;
+    margin-top: 50px;
+}
+.secd{
+    margin-top: 50px;
+}
+@media(max-width: 480px){
+    #ull{
+        display: none;
+    }
+    .sect13{
+        flex-direction: column;
+        align-items: center;
+    }
+    .area{
+        flex-direction: column;
+    }
+    .sect7 button{
+        display: none;
+    }
+    body{
+        width: 100%;
+        height: max-content;
+        overflow-x: hidden;
+    }
+    #end{
+        text-align: center;
+    }
+    #start{
+        text-align: center;
+    }
+    .sect13{
+        margin-top: 20px;
+    }
+    .our{
+        width: 85%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .mess input{
+        width: 85%;
+        margin-left: 50px;
+    }
+    .mess label{
+        margin-left: 50px;
+    }
+    .mess2 textarea{
+        width: 90%;
+    }
+    .mess2 button{
+        margin-left: 70px;
+    }
+    .banana{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
