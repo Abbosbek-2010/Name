@@ -1,0 +1,116 @@
+.logo{
+    width: 37px;
+    height: 54px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: rgba(39, 76, 91, 1);
+}
+ul li a{
+    text-decoration: none;
+    color: rgba(39, 76, 91, 1);
+    font-weight: 700;
+    font-size: 20px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cart{
+    width: 160px;
+    height: 66px;
+    border-radius: 33px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 20px;
+}
+.cart_one{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: rgba(39, 76, 91, 1);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.cart h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.head_one{
+    margin-top: 30px;
+}
+.bg_shaftoli{
+    background-image: url(../../assets/Image19.png);
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg_shaftoli h1{
+    text-align: center;
+    padding-top: 160px;
+    font-size: 60px;
+    font-weight: 800;
+    color: #274C5B;
+}
+.bor{
+  display: flex;
+  gap: 50px;
+}
+.sect7{
+    background-image: url(../../assets/Image7.png);
+    width: 90%;
+    height: 320px;
+    margin-left: 5%;
+    border-radius: 50px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+    align-items: center;
+}
+.sect7 h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+}
+.sect7 input{
+    width: 300px;
+    height: 60px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+.sect7 button{
+    padding: 23px 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: #274C5B;
+    color: white;
+}
+.inp{
+    display: flex;
+    gap: 20px;
+}
+@media(max-width: 480px){
+    .ull{
+        display: none;
+    }
+}

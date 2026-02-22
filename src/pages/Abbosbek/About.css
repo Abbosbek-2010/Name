@@ -280,11 +280,12 @@ ul li a{
     margin-top: 200px;
 }
 .sect11 div{
-    width: 250px;
+    width: 100%;
     height: auto;
+    border-radius: 20px;
 }
 .sect11 div img{
-    width: 300px;
+    width: 250px;
 }
 .tube{
     display: flex;
