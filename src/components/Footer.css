@@ -1,0 +1,65 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 147px;
+    flex-wrap: wrap;
+}
+footer div img{
+    width: 36px;
+    height: 53px;
+}
+.end{
+    text-align: end;
+}
+.center{
+    text-align: center;
+}
+.start{
+    text-align: start;
+}
+.end h4{
+    margin-top: 32px;
+}
+.end p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #525C60;
+    margin-top: 5px;
+}
+footer h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #274C5B;
+}
+.start p{
+    color: #525C60;
+    margin-top: 20px;
+}
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.center p{
+    color: #525C60;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 23px;
+}
+.follow{
+    width: 280px;
+    height: 60px;
+    margin-top: 50px;
+}
+footer hr{
+    background-color: #D4D4D4;
+    margin-top: 100px;
+}
+.copy{
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    color: #525C60;
+}

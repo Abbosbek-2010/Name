@@ -18,6 +18,7 @@ function App() {
     <>
       <Routes>
         <Route path="*" element={<NotFound />} />
+        <Route path="/pages" element={<NotFound />} />
         <Route path="/" element={<Organick />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="about" element={<About />} />
