@@ -20,6 +20,7 @@ import ps1 from '../../assets/PS1.png'
 import ps2 from '../../assets/PS2.png'
 import ps3 from '../../assets/PS3.png'
 import Footer from '../../components/Footer';
+import NavBar from '../../components/NavBar';
 
 
 let Cards = [

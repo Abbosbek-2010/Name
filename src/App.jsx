@@ -11,6 +11,7 @@ import Portfolio from './pages/Nixola/Portfolio';
 import Port_Single from './pages/Nixola/Port_single';
 import Team from './pages/Nixola/Team';
 import Contact from './pages/Sulaymon/Contact';
+import Blog from './pages/Sulaymon/Blog'
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
         <Route path="/pages" element={<NotFound />} />
         <Route path="/" element={<Organick />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="about" element={<About />} />
         <Route path="shop" element={<Shop />} />
         <Route path="service" element={<Service />} />
@@ -28,6 +29,10 @@ function App() {
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="portfolio-single" element={<Port_Single />} />
         <Route path="team" element={<Team />} />
+        <Route path="service" element={<Service />} />
+        <Route path="portfolio" element={<Portfolio />} />
+        <Route path="team" element={<Team />} />
+        <Route path="blog" element={<Blog />} />
         <Route path="/shop_single/:id" element={<Shop_single />} />
       </Routes>
     </>

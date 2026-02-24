@@ -63,3 +63,16 @@ ul li a{
     font-size: 18px;
     font-weight: 600;
 }
+select{
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    outline: none;
+    color:  rgba(39, 76, 91, 1);
+}
+select option{
+    width: 65px;
+    height: 30px;
+}
