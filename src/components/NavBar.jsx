@@ -20,7 +20,8 @@ const NavBar = () => {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <select  onChange={(e) => navigate(e.target.value)}>
-            <option  value="/service">Service</option>
+            <option  value={"/Pages"}>Pages</option>
+            <option  value={"/service"}>Service</option>
             <option value={'/portfolio'}>Portfolio</option>
             <option value={'/team'}>Team</option>
             <option value={'/blog'}>Blog</option>

@@ -12,6 +12,9 @@ import Port_Single from './pages/Nixola/Port_single';
 import Team from './pages/Nixola/Team';
 import Contact from './pages/Sulaymon/Contact';
 import Blog from './pages/Sulaymon/Blog'
+import Password from './pages/Sulaymon/Password';
+import Licenses from './pages/Sulaymon/Licenses';
+import Changelog from './pages/Sulaymon/Changelog';
 
 function App() {
 
@@ -32,7 +35,10 @@ function App() {
         <Route path="service" element={<Service />} />
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="team" element={<Team />} />
+        <Route path="licenses" element={< Licenses/>} />
         <Route path="blog" element={<Blog />} />
+        <Route path="password" element={<Password />} />
+        <Route path="changelog" element={<Changelog />} />
         <Route path="/shop_single/:id" element={<Shop_single />} />
       </Routes>
     </>

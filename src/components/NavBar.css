@@ -71,6 +71,7 @@ select{
     font-weight: 700;
     outline: none;
     color:  rgba(39, 76, 91, 1);
+    width: 11%;
 }
 select option{
     width: 65px;
