@@ -6,7 +6,7 @@ import { CiSearch } from "react-icons/ci";
 import P1 from '../../assets/Photo1.png'
 import P2 from '../../assets/Photo2.png'
 import P3 from '../../assets/Photo3.png'
-import P4 from '../../assets/image_13.png'
+import P4 from '../../assets/image13.png'
 import P5 from '../../assets/image14.png'
 import P6 from '../../assets/Photo4.png'
 import P7 from '../../assets/Photo5.png'

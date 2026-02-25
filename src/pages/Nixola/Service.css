@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.bolim1{
+    background-image: url(../../assets/rasm1.png);
+    width: 100%;
+    height: 40vh;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+.tag1{
+    font-size: clamp(28px, 5vw, 70px);
+    font-weight: 800;
+    color: #274C5B;
+    line-height: 100%;
+}
+/* section2 */
+.bolim2{
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+    justify-content: center;
+    gap: 30px;
+      padding: 0 20px;
+}
+.wrapkard{
+    text-align: end;
+     margin-top: 39px;
+       max-width: 350px;
+}
+.wrapkard1{
+    margin-top: 39px;
+    text-align: start;
+     max-width: 350px;
+}
+.two{
+    width: 20%;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;
+}
+.bolim2 img{
+    max-width: 100%;
+    height: auto;
+}
+/* section3 */
+
+.bolim3{
+    background-image: url(../../assets/frasm2.png);
+    width: 100%;
+    min-height: 100vh;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapbolim3{
+    max-width: 600px; 
+    text-align: center;
+}
+.tag2{
+    font-size: clamp(20px, 3vw, 36px);
+    font-size: 36px;
+    font-weight: 400;
+    color: #7EB693;
+    margin-bottom: 7px;
+    line-height: 100%;
+}
+.tag3{
+     font-size: clamp(28px, 5vw, 50px);
+    font-size: 50px;
+    font-weight: 700;
+    color: #274C5B;
+    margin-bottom: 24px;
+    line-height: 100%;
+}
+.tag4{
+     font-size: clamp(14px, 2vw, 18px);
+    font-size: 18px;
+    font-weight: 400;
+    color:#274C5B ;
+    margin-bottom: 24px;
+    line-height: 100%;
+}
+.wrapbolim3 img{
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+.mybutton{
+    padding: 20px;
+    border: 1px solid #274C5B;
+    color: #274C5B;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 16px;
+    background-color: #F9F8F8;
+}
+@media (max-width: 450px) {
+  .bolim1 {
+    height: 200px;
+  }
+
+  .tag1 {
+    font-size: 32px;
+  }
+}
+@media (min-width: 330px) and (max-width: 450px) {
+  .bolim1 {
+    height: 220px;
+  }
+
+  .tag1 {
+    font-size: 34px;
+  }
+}
+@media (min-width: 350px) and (max-width: 450px){
+
+  .bolim2{
+      flex-direction: column;
+      gap: 50px;
+      margin-top: 70px;
+      padding: 0px;
+  }
+
+  .two{
+      width: 100%;
+      align-items: center;
+  }
+
+  .wrapkard,
+  .wrapkard1{
+      text-align: center;
+      max-width: 100%;
+  }
+
+  .bolim2 img{
+      width: 50%;
+  }
+
+  .wrapkard h4,
+  .wrapkard1 h4{
+      font-size: 18px;
+  }
+
+  .wrapkard p,
+  .wrapkard1 p{
+      font-size: 14px;
+  }
+}
+@media (min-width: 350px) and (max-width: 450px){
+
+  .bolim3{
+      padding: 80px 15px;
+      margin-top: 20px;
+  }
+
+  .wrapbolim3{
+      max-width: 100%;
+  }
+
+  .tag2{
+      font-size: 18px;
+  }
+
+  .tag3{
+      font-size: 26px;
+  }
+
+  .tag4{
+      font-size: 14px;
+  }
+
+}
+
+
+

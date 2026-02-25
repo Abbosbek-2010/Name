@@ -1,11 +1,12 @@
 import React from 'react'
 import "./Port_single.css"
-
+import NavBar from '../../components/NavBar'
 const Port_single = () => {
   return (
-    <div>
-      
-    </div>
+   <>
+   <NavBar/>
+   <div className='bolim10'></div>
+   </>
   )
 }
 

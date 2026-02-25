@@ -1,0 +1,155 @@
+.bolim5{
+    background-image: url(../../assets/frasm3.jpg);
+    width: 100%;
+    min-height: 60vh;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     padding: 40px 20px;
+}
+.tag7{
+    font-size: clamp(28px, 8vw, 30px);
+    font-size: 70px;
+    font-weight: 800;
+    color: #274C5B;
+    line-height: 100%;
+}
+/* bolim6 */
+.bolim6{
+    display: flex;
+    justify-content: center;
+}
+.wrapbolim6{
+    width: 100%;
+     max-width: 900px;
+}
+.kard10{
+    width: 70%;
+    height: 23vh;
+    border-radius: 20px;
+    background-color: #F9F8F8;
+    padding: 40px;
+     min-height: 180px;   
+}
+.twowrapkard{
+    display: flex;
+    gap: 20px;
+}
+.tag8{
+    font-size: 25px;
+    font-size: clamp(18px, 3vw, 25px);
+    font-weight: 500;
+    color: #274C5B;
+    margin-bottom: 7px;
+}
+.tag9{
+    font-size: 50px;
+    font-size: clamp(28px, 6vw, 50px);
+    color: #274C5B;
+    font-weight: 800;
+    margin-bottom: 28px;
+    margin-top: 78px;
+}
+.tag10{
+    font-size: 18px;
+    font-weight: 400;
+    color: #525C60;
+    margin-bottom: 25px;
+    font-size: clamp(14px, 2vw, 18px);
+}
+.tag11{
+    font-size: 18px;
+    font-weight: 400;
+    font-size: clamp(14px, 2vw, 18px);
+    color: #525C60;
+    margin-bottom: 40px;
+}
+.border{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 40%;
+    align-content: center;
+    border-radius: 100px;
+    background-color: #F9F8F8;
+    height: 99px;
+    margin-top: 40px;
+}
+.border img {
+    max-width: 50px;
+    height: auto;
+}
+ .twowrap {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+@media (min-width: 350px) and (max-width: 450px) {
+    .bolim5 {
+        min-height: 40vh;
+    }
+
+    .tag7 {
+        font-size: 26px;
+    }
+}
+@media (min-width: 350px) and (max-width: 450px) {
+    .wrapbolim6 {
+        width: 100%;
+    }
+
+    .twowrapkard {
+        flex-direction: column;  
+        gap: 20px;
+    }
+
+    .kard10 {
+        padding: 20px;
+        min-height: auto;
+    }
+
+    .tag9 {
+        font-size: 26px;
+        margin-top: 40px;
+    }
+
+    .tag8 {
+        font-size: 18px;
+    }
+
+    .tag10,
+    .tag11 {
+        font-size: 14px;
+    }
+
+    .twowrapkard img {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (min-width: 350px) and (max-width: 450px) {
+    .twowrap {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .border {
+        width: 100%;
+        max-width: 100%;
+        min-height: auto;
+        padding: 12px 15px;
+        border-radius: 50px;
+    }
+
+    .border img {
+        max-width: 40px;
+    }
+
+    .border h4 {
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+
