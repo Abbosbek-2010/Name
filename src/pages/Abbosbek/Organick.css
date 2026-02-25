@@ -99,6 +99,10 @@ ul li a{
     color: rgba(104, 164, 127, 1);
     font-family: cursive;
 }
+.deco{
+    text-decoration: none;
+    color: rgba(39, 76, 91, 1);
+}
 .back h1{
     font-size: 60px;
     font-weight: 500;
@@ -301,7 +305,7 @@ ul li a{
 .sect2{
     background-image: url(../../assets/Image.jpg);
     width: 100%;
-    height: 160vh;
+    height: 140vh;
     background-size: cover;
     margin-top: 200px;
     text-align: center;
@@ -354,6 +358,7 @@ ul li a{
     text-align: center;
     padding-top: 50px;
     background-color: rgba(241, 241, 241, 1);
+    margin-top: 50px;
 }
 .n{
     display: flex;
@@ -531,16 +536,20 @@ ul li a{
     margin-top: 50px;
 }
 .M1{
-    background-image: url(../../assets/Image7.png);
+    background-image: url(../../assets/Image5.png);
     width: 38%;
     height: 450px;
     border-radius: 40px;
 }
 .M2{
-    background-image: url(../../assets/Image5.png);
+    background-image: url(../../assets/Image6.png);
     width: 38%;
     height: 450px;
     border-radius: 40px;
+}
+.news{
+    text-decoration: none;
+    color: black;
 }
 .why{
     width: 90%;

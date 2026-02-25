@@ -170,7 +170,7 @@ const Organick = () => {
       <div className="pad">
         <h2>100% Natural Food</h2>
       <h1>Choose the best  <br /> healthier way <br /> of life</h1>
-      <button>Explore Now →</button>
+      <button><Link to={'/about'} className='deco'>Explore Now →</Link></button>
       </div>
     </div>
 
@@ -371,7 +371,7 @@ const Organick = () => {
           <h1>Discover weekly content about <br /> organic food, & more</h1>
         </div>
         <div>
-          <button>More News →</button>
+          <button><Link to={'/about'} className='news'>More News →</Link></button>
         </div>
       </div>
 
