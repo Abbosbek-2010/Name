@@ -1,0 +1,173 @@
+.bolim14{
+    width: 70%;
+    height: 40vh;
+    position: relative;
+     margin: -150px auto 0;  
+    background-color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+}
+.tut{
+    width: 50%;
+     flex: 1;
+}
+.tag23{
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom:20px ;
+    color: #274C5B;
+}
+.tag24{
+    font-size: 18px;
+    color: #525C60;
+    font-weight: 400;
+
+}
+.inside{
+    display: flex;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 111px;
+}
+/* section15 */
+.bolim15{
+    width: 45%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+     margin: 0 auto; 
+     margin-top: 68px;
+}
+.tag25{
+    font-size: 35px;
+    font-weight: 800;
+    color: #274C5B;
+    margin-bottom: 24px;
+}
+.tag26{
+    font-size: 18px;
+    font-weight: 400;
+    color: #525C60;
+    margin-bottom: 20px;
+}
+.tag27{
+    font-size: 18px;
+    font-weight: 400;
+    color: #525C60;
+    margin-bottom: 20px;
+}
+
+
+
+@media (min-width: 350px) and (max-width: 450px) {
+
+    .bolim14 {
+        margin: -80px auto 0;
+        padding: 25px;
+        border-radius: 20px;
+    }
+
+    .inside {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .tut {
+        width: 100%;
+    }
+
+    .tag23 {
+        font-size: 26px;
+    }
+
+    .tag24 {
+        font-size: 14px;
+    }
+     .bolim15 {
+      margin: 40px auto;
+  }
+
+  .tag25 {
+      font-size: 20px;
+  }
+
+  .tag26,
+  .tag27 {
+      font-size: 14px;
+  }
+
+}
+@media (max-width: 330px) {
+
+    .bolim14 {
+        margin: -60px auto 0;
+        padding: 18px;
+        border-radius: 15px;
+        width: 95%;
+    }
+
+    .inside {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .tut {
+        width: 100%;
+    }
+
+    .tag23 {
+        font-size: 22px;
+        line-height: 1.2;
+    }
+
+    .tag24 {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .inside img {
+        width: 100%;
+        height: auto;
+    }
+    .bolim15 {
+      margin: 30px auto;
+  }
+
+  .tag25 {
+      font-size: 18px;
+  }
+
+  .tag26,
+  .tag27 {
+      font-size: 13px;
+      line-height: 1.5;
+  }
+}
+@media (max-width: 450px) {
+
+  .bolim15 {
+      width: 95%;
+      margin: 50px auto;
+  }
+
+  .tag25 {
+      font-size: 24px;
+  }
+
+  .tag26,
+  .tag27 {
+      font-size: 15px;
+      line-height: 1.6;
+  }
+
+  .bolim15 img {
+      width: 100%;
+      height: auto;
+      margin: 20px 0;
+  }
+
+}

@@ -185,4 +185,69 @@
 }
 
 
+@media (max-width: 330px) {
+  .bolim1 {
+    height: 170px;
+    margin-top: 15px;
+  }
+  .tag1 {
+    font-size: 26px;
+    text-align: center;
+  }
+  .bolim2 {
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 50px;
+    padding: 0 10px;
+  }
+  .two {
+    width: 100%;
+    align-items: center;
+  }
+  .wrapkard,
+  .wrapkard1 {
+    text-align: center;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .wrapkard1 h4 {
+    font-size: 16px;
+  }
+  .wrapkard h4 {
+    font-size: 16px;
+  }
+
+  .wrapkard p,
+  .wrapkard1 p {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+  .bolim2 img {
+    width: 70%;
+  }
+  .bolim3 {
+    padding: 60px 12px;
+    min-height: auto;
+  }
+
+  .tag2 {
+    font-size: 16px;
+  }
+
+  .tag3 {
+    font-size: 22px;
+  }
+
+  .tag4 {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .mybutton {
+    padding: 14px 18px;
+    font-size: 14px;
+  }
+
+}
 
