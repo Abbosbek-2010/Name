@@ -1,0 +1,112 @@
+.bolim20{
+    background-image: url(../../assets/frasm15.jpg);
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bolim21{
+    text-align: center;
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;gap: 15px;
+}
+.font1{
+    font-size: 36px;
+    font-weight: 400;
+    color: #7EB693;
+}
+.font2{
+    font-size: 50px;
+    font-weight: 800;
+    color: #274C5B;
+    margin-bottom: 16px;
+}
+.font3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #525C60;
+}
+.human{
+    width: 20%;
+    background-color: #F9F8F8;
+    height: 50vh;
+    border-radius: 30px;
+}
+.ikons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.threewrapkard{
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+    margin-top: 42px;
+     flex-wrap: wrap; 
+}
+
+@media (max-width: 450px) {
+    .bolim21 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 350px) {
+    .bolim21 {
+        width: 95%;
+    }
+}
+
+@media (max-width: 330px) {
+    .bolim21 {
+        width: 100%;
+    }
+}
+.threewrapkard {
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+    margin-top: 42px;
+    flex-wrap: wrap; 
+}
+
+.human {
+    width: 20%; 
+    background-color: #F9F8F8;
+    height: 50vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+
+@media (max-width: 450px) {
+    .human {
+        width: 60%; 
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 350px) {
+    .human {
+        width: 80%; 
+    }
+}
+
+@media (max-width: 330px) {
+    .human {
+        width: 95%; 
+    }
+}
