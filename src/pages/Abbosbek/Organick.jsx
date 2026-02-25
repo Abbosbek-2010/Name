@@ -11,7 +11,7 @@ import org2 from '../../assets/Group2.svg'
 import P1 from '../../assets/Photo1.png'
 import P2 from '../../assets/Photo2.png'
 import P3 from '../../assets/Photo3.png'
-import P4 from '../../assets/image_13.png'
+// import P4 from '../../assets/image_13.png'
 import P5 from '../../assets/images14.png'
 import P6 from '../../assets/Photo4.png'
 import P7 from '../../assets/Photo5.png'
@@ -53,7 +53,7 @@ let Cards = [
     id: 3
   },
   {
-    img: P4,
+    img: P3,
     name: 'Vegan Red Tomato',
     oldprice: '$20.00',
     price: '$17.00',
