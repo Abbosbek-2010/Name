@@ -3,7 +3,6 @@ import "./Shop.css"
 import { Link, useNavigate } from 'react-router-dom'
 import Logo from "../../assets/Logo.png"
 import { CiSearch } from "react-icons/ci";
-import { MdOutlineShoppingCart } from "react-icons/md";
 import P1 from '../../assets/Photo1.png'
 import P2 from '../../assets/Photo2.png'
 import P3 from '../../assets/Photo3.png'
@@ -130,7 +129,6 @@ const Shop = () => {
     <div>
       <header className='head_one'>
       <NavBar/>
-
 
       <div className="bg_shaftoli">
         <h1>Shop</h1>
