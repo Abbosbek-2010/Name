@@ -15,6 +15,10 @@ import Blog from './pages/Sulaymon/Blog'
 import Password from './pages/Sulaymon/Password';
 import Licenses from './pages/Sulaymon/Licenses';
 import Changelog from './pages/Sulaymon/Changelog';
+import Carrot from './pages/Nixola/carrot';
+import Rayhon from './pages/Nixola/rayxon';
+import Tomato from './pages/Nixola/tomato';
+import Lemon from './pages/Nixola/lemon';
 
 function App() {
 
@@ -40,6 +44,11 @@ function App() {
         <Route path="password" element={<Password />} />
         <Route path="changelog" element={<Changelog />} />
         <Route path="/shop_single/:id" element={<Shop_single />} />
+        <Route path="carrot" element={<Carrot />} />
+        <Route path="rayhon" element={<Rayhon />} />
+        <Route path="tomato" element={<Tomato />} />
+                <Route path="lemon" element={<Lemon />} />
+
       </Routes>
     </>
   )

@@ -28,29 +28,29 @@ const Portfolio = () => {
           <h4 className='tag12'>Green & TastyLemon</h4>
           <h6 className='tag13'>Fruits</h6>
         </div>
-        <div className='navigate'>
+        <div className='navigate'onClick={()=>res2("/carrot")} >
           <img src={frasm8}/>
           <h4 className='tag12'>Organic Carrot</h4>
           <h6 className='tag13'>Farmer</h6>
         </div>
-        <div className='navigate'>
+        <div className='navigate' onClick={()=>res2("/rayhon")}>
           <img src={frasm9}/>
           <h4 className='tag12'>Organic Betel Leaf</h4>
           <h6 className='tag13'>fruits</h6>
         </div>
       </div>
-       <div className='threee'>
+       <div className='threee' onClick={()=>res2("/tomato")}>
         <div className='navigate'>
           <img src={frasm10}/>
-          <h4 className='tag12'>Green & TastyLemon</h4>
+          <h4 className='tag12'>Natural Tommato</h4>
           <h6 className='tag13'>Fruits</h6>
         </div>
-        <div className='navigate'>
+        <div className='navigate'onClick={()=>res2("/portfolio-single")} >
           <img src={frasm11}/>
           <h4 className='tag12'>Black Raspberry</h4>
           <h6 className='tag13'>Farmer</h6>
         </div>
-        <div className='navigate'>
+        <div className='navigate' onClick={()=>res2('/lemon')}>
           <img src={frasm12}/>
           <h4 className='tag12'>Honey Orange</h4>
           <h6 className='tag13'>Leaf</h6>

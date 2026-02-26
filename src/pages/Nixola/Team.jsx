@@ -9,11 +9,12 @@ import leaf from '../../assets/leaf.png'
 import man from '../../assets/man.png'
 import gul from '../../assets/gul.jpg'
 import Footer from '../../components/Footer';
-
+import NavBar from '../../components/NavBar';
 
 const Team = () => {
   return (
   <>
+  <NavBar/>
   <div className='bolim20'>
     <h1 className='tag1'>Our Team</h1>
   </div>
