@@ -182,7 +182,7 @@ ul li a{
     font-weight: 600;
 }
 .mess input{
-    width: 500px;
+    width: 580px;
     height: 65px;
     border-radius: 15px;
     border: 1px solid #7EB693;
@@ -205,7 +205,7 @@ ul li a{
     margin-top: 25px;
 }
 .mess2{
-    margin-left: 100px;
+    margin-left: 150px;
 }
 .mess2 textarea{
     min-width: 91%;
