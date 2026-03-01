@@ -915,7 +915,151 @@ footer hr{
         margin: 0 auto;
     }
     .slesh{
-    padding-left: 100px;
-    padding-right: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .pad h1 {
+        font-size: 32px;
+    }
+    .pad h2 {
+        font-size: 20px;
+    }
+    .back {
+        padding: 40px 20px;
+    }
+    .matn h1 {
+        font-size: 32px;
+    }
+    .matn h3 {
+        font-size: 28px;
+    }
+    .sect2 h1 {
+        font-size: 32px;
+    }
+    .sect7 h1 {
+        font-size: 28px;
+    }
+    .Load {
+        margin-left: 0;
+        width: 90%;
+        margin-top: 30px;
+    }
+    .card {
+        width: 100%;
+        max-width: 280px;
+    }
+    .organic h1 {
+        font-size: 36px;
+    }
 }
+
+/* Eng kichik telefon (320px) */
+@media (max-width: 360px) {
+    .pad h1 {
+        font-size: 26px;
+    }
+    .pad h2 {
+        font-size: 18px;
+    }
+    .back {
+        padding: 30px 12px;
+    }
+    .mal {
+        padding-left: 0;
+        gap: 15px;
+    }
+    .image, .image2 {
+        width: 100%;
+        height: 220px;
+        background-size: cover;
+    }
+    .text h1, .text2 h1 {
+        font-size: 22px;
+    }
+    .bel {
+        font-size: 28px;
+    }
+    .about {
+        font-size: 24px;
+    }
+    .matn h1 {
+        font-size: 26px;
+    }
+    .matn h3 {
+        font-size: 22px;
+    }
+    .card {
+        width: 100%;
+        max-width: 260px;
+    }
+    .sect2 h1 {
+        font-size: 26px;
+    }
+    .led {
+        font-size: 28px;
+    }
+    .organic {
+        width: 140px;
+        height: 140px;
+        padding-top: 35px;
+    }
+    .organic h1 {
+        font-size: 28px;
+    }
+    .organic h3 {
+        font-size: 14px;
+    }
+    .slesh h1 {
+        font-size: 26px;
+    }
+    .slesh h3 {
+        font-size: 28px;
+    }
+    .dala_div h1 {
+        font-size: 28px;
+    }
+    .dala_div h3 {
+        font-size: 28px;
+    }
+    .sect7 h1 {
+        font-size: 22px;
+    }
+    .sect7 input {
+        width: 100%;
+        max-width: 220px;
+    }
+    .inp {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .sect7 button {
+        padding: 18px 30px;
+    }
+    .why {
+        width: 92%;
+        margin-left: 4%;
+        padding: 15px;
+    }
+    .M1, .M2 {
+        width: 95%;
+        height: 380px;
+    }
+    .news h1 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 320px) {
+    .pad h1 {
+        font-size: 22px;
+    }
+    .organic {
+        width: 120px;
+        height: 120px;
+        padding-top: 28px;
+    }
+    .organic h1 {
+        font-size: 24px;
+    }
 }

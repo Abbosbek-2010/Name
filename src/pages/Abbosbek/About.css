@@ -368,6 +368,51 @@ ul li a{
     height: auto;
 }
 
+/* Tablet (768px) */
+@media (max-width: 768px) {
+    .bg-about h1 {
+        font-size: 38px;
+        padding-top: 150px;
+    }
+    .sect8 {
+        flex-direction: column;
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+    .nine {
+        width: 100%;
+        max-width: 100%;
+    }
+    .sect9 {
+        flex-direction: column;
+        padding-top: 80px;
+        gap: 30px;
+    }
+    .sect9 img {
+        width: 100%;
+        max-width: 100%;
+    }
+    .src {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tube {
+        flex-direction: column;
+        align-items: center;
+    }
+    .traktor {
+        flex-direction: column;
+        align-items: center;
+    }
+    .return {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sect11 div img {
+        width: 180px;
+    }
+}
+
 @media(max-width: 480px){
     #ull{
         display: none;
@@ -433,7 +478,48 @@ ul li a{
     .pad{
         padding: 0;
     }
-    .search{
-        display: none;
+    .bg-about h1 {
+        font-size: 32px;
+    }
+    .sect8 h1 {
+        font-size: 32px;
+    }
+    .sect9 h1 {
+        font-size: 32px;
+    }
+    .sect11 h1 {
+        font-size: 32px;
+    }
+}
+
+/* Eng kichik telefon (320px) */
+@media (max-width: 360px) {
+    .bg-about h1 {
+        font-size: 26px;
+    }
+    .sect8 h1 {
+        font-size: 26px;
+    }
+    .sect9 h1 {
+        font-size: 26px;
+    }
+    .expert {
+        font-size: 26px;
+    }
+    .sect11 h1 {
+        font-size: 26px;
+    }
+    .sect11 h3 {
+        font-size: 28px;
+    }
+    .return_div {
+        width: 100%;
+        max-width: 260px;
+    }
+}
+
+@media (max-width: 320px) {
+    .bg-about h1 {
+        font-size: 22px;
     }
 }

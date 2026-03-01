@@ -28,6 +28,26 @@ ul li a{
     font-weight: 700;
     font-size: 20px;
 }
+/* Joriy sahifa – navda ajralib turishi */
+ul li a.nav_active,
+.nav .lin.nav_active .h2,
+.modal_list li a.nav_active {
+    color: rgba(126, 182, 147, 1) !important;
+    font-weight: 800;
+    border-bottom: 2px solid rgba(126, 182, 147, 1);
+}
+.nav .lin.nav_active {
+    border-bottom: none;
+}
+.nav .lin.nav_active .h2 {
+    border-bottom: 2px solid rgba(126, 182, 147, 1);
+    padding-bottom: 2px;
+}
+.modal_list li a.nav_active {
+    border-bottom: none;
+    border-left: 4px solid rgba(126, 182, 147, 1);
+    padding-left: 8px;
+}
 .flex{
     display: flex;
     align-items: center;
@@ -79,46 +99,173 @@ select option{
 }
 .bars{
     display: none;
+    cursor: pointer;
+    color: rgba(39, 76, 91, 1);
+}
+.bars:hover {
+    opacity: 0.8;
 }
 .modal{
     width: 300px;
-    height: 450px;
-    background: transparent;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    backdrop-filter: blur(20px);
+    max-height: 85vh;
+    overflow-y: auto;
+    background: rgba(255, 255, 255, 0.98);
+    border: 2px solid rgba(39, 76, 91, 0.3);
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.15);
     position: fixed;
-    top: 10px;
-    right: 10px;
-    text-align: center;
+    top: 70px;
+    right: 15px;
+    text-align: left;
+    padding: 0 0 20px 0;
+    z-index: 9999;
 }
-.modal button{
-    padding: 5px 15px;
-    margin-top: 5px;
-    background: transparent;
-    border: 2px solid red;
-    color: red;
-    border-radius: 5px;
+.modal_close{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 12px 15px;
+    margin: 0;
+    background: rgba(39, 76, 91, 1);
+    color: white;
+    border: none;
+    border-radius: 10px 10px 0 0;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 1;
 }
-.modal_flex ul li{
-    list-style: none;
-    font-family: cursive;
-    font-size: 22px;
-    font-weight: 500;
-    margin-top: 12px;
-    color: rgba(39, 76, 91, 1);
+.modal_close:hover {
+    background: rgba(39, 76, 91, 0.9);
 }
 .modal_flex{
     display: flex;
     flex-direction: column;
-    row-gap: 50px;
+    padding: 10px 0 0;
 }
-@media(max-width: 480px){
-    #id{
-        display: none;
+.modal_list{
+    list-style: none;
+    margin: 0;
+    padding: 0 15px;
+}
+.modal_flex .modal_list li{
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(224, 224, 224, 0.8);
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(39, 76, 91, 1);
+}
+.modal_flex .modal_list li:last-child{
+    border-bottom: none;
+}
+.modal_flex .modal_list li a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+.modal_flex .modal_list li a:hover{
+    color: rgba(126, 182, 147, 1);
+}
+.modal_pages_title{
+    font-family: cursive;
+    color: rgba(126, 182, 147, 1) !important;
+    font-size: 20px !important;
+    margin-top: 8px !important;
+    padding-top: 14px !important;
+    border-bottom: none !important;
+}
+.search.cart2 {
+    display: flex;
+}
+/* 998px va undan kichik – hamburger + search + cart ham ko‘rinadi */
+@media (max-width: 998px) {
+    .bars {
+        display: block !important;
+        font-size: 22px;
+        cursor: pointer;
     }
-    .bars{
-        display: block;
+    .ul {
+        display: none !important;
+    }
+    .nav {
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+    .modal {
+        width: 280px;
+        max-width: 90vw;
+        right: 15px;
+        left: auto;
+        transform: none;
+    }
+    .h2 {
+        font-size: 24px;
+    }
+    .logo {
+        width: 32px;
+        height: 48px;
+    }
+}
+
+/* Telefon (480px) */
+@media (max-width: 480px) {
+    .bars {
+        display: block !important;
         font-size: 20px;
+    }
+    .nav {
+        padding: 8px 12px;
+    }
+    .h2 {
+        font-size: 20px;
+    }
+    .logo {
+        width: 28px;
+        height: 42px;
+    }
+    .modal {
+        width: 260px;
+        height: auto;
+        min-height: 400px;
+        padding: 15px;
+        top: 15px;
+    }
+    .modal_flex ul li {
+        font-size: 18px;
+    }
+}
+
+/* Eng kichik telefon (320px) */
+@media (max-width: 360px) {
+    .nav {
+        padding: 6px 8px;
+    }
+    .h2 {
+        font-size: 16px;
+    }
+    .logo {
+        width: 24px;
+        height: 36px;
+    }
+    .modal {
+        width: 92vw;
+        max-width: 320px;
+        left: 4vw;
+        right: auto;
+        transform: none;
+    }
+    .modal_flex ul li {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    .h2 {
+        font-size: 14px;
+    }
+    .logo {
+        width: 22px;
+        height: 32px;
     }
 }

@@ -42,28 +42,58 @@
     align-items: center;
     cursor: pointer;
 }
-@media (min-width: 350px) and (max-width: 450px) {
+@media (max-width: 768px) {
+    .bolim8 {
+        height: 40vh;
+        padding: 0 20px;
+    }
+    .tag12 {
+        font-size: 20px;
+    }
+    .tag13 {
+        font-size: 18px;
+    }
+    .threee {
+        gap: 20px;
+        margin-top: 40px;
+    }
+}
 
+@media (min-width: 350px) and (max-width: 450px) {
     .threee {
         flex-direction: column;
         gap: 20px;
     }
-
     .navigate {
         width: 100%;
         max-width: 100%;
     }
-
     .navigate img {
         width: 100%;
         height: auto;
     }
-
     .tag12 {
         font-size: 18px;
     }
-
     .tag13 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 360px) {
+    .bolim8 {
+        height: 35vh;
+    }
+    .tag12 {
+        font-size: 16px;
+    }
+    .tag13 {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 320px) {
+    .tag12 {
         font-size: 14px;
     }
 }

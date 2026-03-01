@@ -4,3 +4,9 @@
   font-family: sans-serif;
   box-sizing: border-box;
 }
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+  min-height: 100%;
+}
