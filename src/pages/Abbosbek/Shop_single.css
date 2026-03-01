@@ -118,3 +118,100 @@
     font-weight: 700;
     margin-top: 100px;
 }
+
+/* Laptop (1024px) */
+@media (max-width: 1024px) {
+    .cards_section {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+    .single_img {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+    }
+    .K {
+        margin-top: 50px;
+    }
+}
+
+/* Tablet (768px) */
+@media (max-width: 768px) {
+    .bg-anor h1 {
+        font-size: 42px;
+        padding-top: 120px;
+    }
+    .cards_section {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 0 20px;
+    }
+    .single_img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+    .K h1 {
+        font-size: 32px;
+    }
+    .bot div {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .quan {
+        flex-wrap: wrap;
+    }
+}
+
+/* Telefon (480px) */
+@media (max-width: 480px) {
+    .bg-anor {
+        height: 320px;
+    }
+    .bg-anor h1 {
+        font-size: 28px;
+        padding-top: 80px;
+    }
+    .single_img {
+        width: 100%;
+        max-width: 100%;
+    }
+    .K h1 {
+        font-size: 26px;
+    }
+    .PRR p, .PRR h3 {
+        font-size: 18px;
+    }
+    .quan {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .quan button {
+        width: 100%;
+        max-width: 200px;
+    }
+    .d {
+        font-size: 32px;
+    }
+}
+
+/* Eng kichik telefon (320px) */
+@media (max-width: 360px) {
+    .bg-anor h1 {
+        font-size: 22px;
+    }
+    .K h1 {
+        font-size: 22px;
+    }
+    .d {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 320px) {
+    .bg-anor h1 {
+        font-size: 20px;
+    }
+}

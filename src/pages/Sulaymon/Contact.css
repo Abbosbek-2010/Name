@@ -182,7 +182,7 @@ ul li a{
     font-weight: 600;
 }
 .mess input{
-    width: 500px;
+    width: 580px;
     height: 65px;
     border-radius: 15px;
     border: 1px solid #7EB693;
@@ -205,7 +205,7 @@ ul li a{
     margin-top: 25px;
 }
 .mess2{
-    margin-left: 100px;
+    margin-left: 150px;
 }
 .mess2 textarea{
     min-width: 91%;
@@ -214,6 +214,8 @@ ul li a{
     max-height: 240px;
     border-radius: 15px;
     border: 1px solid #7EB693;
+    padding-left: 20px;
+    margin-top: 10px;
 }
 .mess2 textarea::placeholder{
     padding: 20px;
@@ -234,6 +236,46 @@ ul li a{
 .secd{
     margin-top: 50px;
 }
+/* Tablet (768px) */
+@media (max-width: 768px) {
+    .bg-cont h1 {
+        font-size: 38px;
+        padding-top: 120px;
+    }
+    .sect13 {
+        flex-direction: column;
+        margin-top: 80px;
+        padding: 0 20px;
+    }
+    .sect14 {
+        height: auto;
+        min-height: 50vh;
+        margin-left: 10px;
+        width: calc(100% - 20px);
+    }
+    .our {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 30px;
+    }
+    .area {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mess input {
+        width: 100%;
+        max-width: 500px;
+    }
+    .mess2 {
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    .mess2 textarea {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
 @media(max-width: 480px){
     #ull{
         display: none;
@@ -283,5 +325,52 @@ ul li a{
     .banana{
         width: 90%;
         margin-left: 5%;
+    }
+    .bg-cont h1 {
+        font-size: 28px;
+    }
+    .our h1 {
+        font-size: 32px;
+    }
+}
+
+/* Eng kichik telefon (320px) */
+@media (max-width: 360px) {
+    .bg-cont h1 {
+        font-size: 22px;
+        padding-top: 80px;
+    }
+    .our {
+        width: 95%;
+        margin-left: 2.5%;
+        padding: 15px;
+    }
+    .our h1 {
+        font-size: 26px;
+    }
+    .our h3 {
+        font-size: 26px;
+    }
+    .mess input {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .mess label {
+        margin-left: 2.5%;
+    }
+    .mess2 {
+        margin-left: 0;
+        padding: 0 8px;
+    }
+    .mess2 button {
+        margin-left: 0;
+        width: 100%;
+        max-width: 180px;
+    }
+}
+
+@media (max-width: 320px) {
+    .bg-cont h1 {
+        font-size: 20px;
     }
 }

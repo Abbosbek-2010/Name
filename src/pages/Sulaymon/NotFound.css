@@ -167,6 +167,20 @@ footer hr{
     margin-bottom: 17px;
     color: #525C60;
 }
+@media (max-width: 768px) {
+    .backs {
+        padding-left: 20px;
+        padding-top: 80px;
+        height: 80vh;
+    }
+    .four {
+        font-size: 140px;
+    }
+    .page {
+        font-size: 56px;
+    }
+}
+
 @media(max-width: 480px){
     #ull{
         display: none;
@@ -179,11 +193,35 @@ footer hr{
     }
     .backs{
         background-position: center;
+        padding-top: 60px;
+        height: 70vh;
     }
     #end{
         text-align: center;
     }
     #start{
         text-align: center;
+    }
+}
+
+@media (max-width: 360px) {
+    .four {
+        font-size: 80px;
+    }
+    .page {
+        font-size: 36px;
+    }
+    .backs {
+        padding-top: 50px;
+        height: 65vh;
+    }
+}
+
+@media (max-width: 320px) {
+    .four {
+        font-size: 64px;
+    }
+    .page {
+        font-size: 28px;
     }
 }

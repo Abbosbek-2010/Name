@@ -67,6 +67,37 @@
     }
 }
 
+@media (max-width: 768px) {
+    .bolim20 {
+        height: 50vh;
+        margin-bottom: 80px;
+    }
+    .bolim21 {
+        width: 85%;
+    }
+    .font1 {
+        font-size: 28px;
+    }
+    .font2 {
+        font-size: 38px;
+    }
+    .human {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .font1 {
+        font-size: 24px;
+    }
+    .font2 {
+        font-size: 30px;
+    }
+    .font3 {
+        font-size: 15px;
+    }
+}
+
 @media (max-width: 330px) {
     .bolim21 {
         width: 100%;

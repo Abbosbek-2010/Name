@@ -109,8 +109,79 @@ ul li a{
     display: flex;
     gap: 20px;
 }
+/* Laptop (1024px) */
+@media (max-width: 1024px) {
+    .bg_shaftoli h1 {
+        font-size: 48px;
+    }
+    .bor {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* Tablet (768px) */
+@media (max-width: 768px) {
+    .bg_shaftoli {
+        height: 350px;
+    }
+    .bg_shaftoli h1 {
+        font-size: 40px;
+        padding-top: 120px;
+    }
+    .sect7 {
+        flex-direction: column;
+        padding: 40px 20px;
+        height: auto;
+        min-height: 280px;
+    }
+    .sect7 h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .inp {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sect7 input {
+        width: 100%;
+        max-width: 280px;
+    }
+}
+
 @media(max-width: 480px){
     .ull{
         display: none;
+    }
+    .bg_shaftoli {
+        height: 280px;
+    }
+    .bg_shaftoli h1 {
+        font-size: 28px;
+        padding-top: 100px;
+    }
+    .sect7 {
+        width: 95%;
+        margin-left: 2.5%;
+        padding: 30px 15px;
+    }
+    .sect7 h1 {
+        font-size: 26px;
+    }
+}
+
+/* Eng kichik telefon (320px) */
+@media (max-width: 360px) {
+    .bg_shaftoli h1 {
+        font-size: 22px;
+    }
+    .sect7 h1 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 320px) {
+    .bg_shaftoli h1 {
+        font-size: 20px;
     }
 }
