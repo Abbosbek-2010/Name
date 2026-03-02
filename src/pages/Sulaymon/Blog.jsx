@@ -10,19 +10,19 @@ const Blog = () => {
     <>
       <NavBar />
       <div className='blog-container'>
-        <div className="blog-container-mini">
+        <div className="blog-container-mini" data-aos="fade-up">
           <h1>Recent News</h1>
         </div>
       </div>
 
       <div className="blog-cards">
-        {Cards.map((card) => (
+        {Cards.map((card, index) => (
           <Link
             to={`/blog/${card.id}`}
             key={card.id}
             className="blog-link"
           >
-            <div className="blog-card">
+            <div className="blog-card" data-aos="fade-up" data-aos-delay={80 * (index % 4)}>
               <img src={card.img} alt={card.title} className="blog-card-img" />
               <div className="blog-card-content">
                 <h2>{card.title}</h2>
@@ -36,7 +36,7 @@ const Blog = () => {
         ))}
       </div>
 
-      <section className='sect7'>
+      <section className='sect7' data-aos="fade-up">
         <h1>Subscribe to <br /> our Newsletter </h1>
         <div className='inp'>
           <input type="text" placeholder='Your Email Address'/>

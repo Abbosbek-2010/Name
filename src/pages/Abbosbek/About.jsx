@@ -32,17 +32,17 @@ const About = () => {
       <NavBar/>
 
 
-      <div className="bg-about">
+      <div className="bg-about" data-aos="fade-up">
         <h1>About Us</h1>
       </div>
     </header>
 
 
     <section className='sect8' id='sect8'>
-      <div>
+      <div data-aos="fade-right">
         <img src={nine} alt="" className='nine'/>
       </div>
-      <div>
+      <div data-aos="fade-left" data-aos-delay="150">
         <h3>About Us</h3>
         <h1>We do Cerative <br /> Things for Succes</h1>
         <p>Simply dummy text of the printing and typesetting industry. Lorem had ceased <br /> to been the industry's standard dummy text ever since the 1500s, when an <br /> unknown printer took a galley.</p>
@@ -69,7 +69,7 @@ const About = () => {
 
     <section className='sectional'>
       <div className="sect9">
-        <div>
+        <div data-aos="fade-up">
         <h3>Why Choose us?</h3>
         <h1>We do not buy from the <br /> open market & traders.</h1>
         <p className='regular'>Simply dummy text of the printing and typesetting industry. Lorem had ceased <br /> to been the industry's standard  the 1500s, when an unknown</p>
