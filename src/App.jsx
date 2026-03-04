@@ -1,5 +1,8 @@
 import './App.css'
-import { Routes, Route, } from "react-router-dom";
+import { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { Routes, Route, useLocation } from "react-router-dom";
 import NotFound from './pages/Sulaymon/NotFound';
 import Organick from './pages/Abbosbek/Organick';
 import About from './pages/Abbosbek/About';
@@ -21,6 +24,15 @@ import Tomato from './pages/Nixola/tomato';
 import Lemon from './pages/Nixola/lemon';
 import Blog_single from "./pages/Sulaymon/Blog_single";
 function App() {
+  const location = useLocation()
+
+  useEffect(() => {
+    AOS.init({ duration: 600, once: true, offset: 50 })
+  }, [])
+
+  useEffect(() => {
+    AOS.refresh()
+  }, [location.pathname])
 
   return (
     <>

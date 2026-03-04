@@ -166,7 +166,7 @@ const Organick = () => {
     </header>
 
     
-    <div className="back">
+    <div className="back" data-aos="fade-up">
       <div className="pad">
         <h2>100% Natural Food</h2>
       <h1>Choose the best  <br /> healthier way <br /> of life</h1>
@@ -177,7 +177,7 @@ const Organick = () => {
 
 
     <div className="mal">
-      <div className="image">
+      <div className="image" data-aos="fade-right" data-aos-delay="100">
         <div className="text">
           <h3>Natural!!</h3>
         <h1>Get Garden <br /> Fresh Fruits</h1>
@@ -187,7 +187,7 @@ const Organick = () => {
 
 
 
-      <div className="image2">
+      <div className="image2" data-aos="fade-left" data-aos-delay="200">
         <div className="text text2">
           <h3>Offer!!</h3>
           <h1>Get 10% off <br /> on Vegetables</h1>
@@ -197,9 +197,9 @@ const Organick = () => {
 
 
     <div className="us">
-      <div className="lime"><img src={Photo} alt="" className='lime'/></div>
+      <div className="lime" data-aos="fade-right"><img src={Photo} alt="" className='lime'/></div>
 
-      <div className="we">
+      <div className="we" data-aos="fade-left" data-aos-delay="150">
         <h3 className='about'>About Us</h3>
         <h1 className='bel'>We Believe in Working <br /> Accredited Farmers</h1>
         <p className='len'>Simply dummy text of the printing and typesetting industry. Lorem had ceased to  <br /> been the industry's standard dummy text ever since the 1500s, when an unknown <br /> printer took a galley.</p>
@@ -223,7 +223,7 @@ const Organick = () => {
     </div>
 
     <section className='sect1'>
-      <div className="matn">
+      <div className="matn" data-aos="fade-up">
         <h3>Categories </h3>
       <h1>Our Products</h1>
       </div>
@@ -231,7 +231,7 @@ const Organick = () => {
       <div className="box">
         {
       Cards.map((item, index)=> (
-        <div key={index} className='card' onClick={()=> navigate(`/shop_single/${item.id}`)}>
+        <div key={index} className='card' onClick={()=> navigate(`/shop_single/${item.id}`)} data-aos="fade-up" data-aos-delay={50 * (index % 4)}>
           <button>{item.btn}</button>
           <img src={item.img} alt="" />
           <h3>{item.name}</h3>
@@ -252,13 +252,13 @@ const Organick = () => {
     }
     
       </div>
-      <button className='Load'>Load More   →</button>
+      <button className='Load' data-aos="fade-up">Load More   →</button>
 
     </section>
 
 
     <section>
-      <div className="sect2">
+      <div className="sect2" data-aos="fade-up">
         <h3 className='led'>Testimonial</h3>
         <h1>What Our Customer Saying?</h1>
         <img src={prof} alt="" />
@@ -297,8 +297,7 @@ const Organick = () => {
     </section>
 
     <section className='sect3'>
-
-      <div className="slesh">
+      <div className="slesh" data-aos="fade-down">
         <div>
           <h3>Offer</h3>
         <h1>We Offer Organic For You</h1>
@@ -310,7 +309,7 @@ const Organick = () => {
       <div className="boxing">
         {
       Cards2.map((item, index)=> (
-        <div key={index} className='card card2' onClick={()=> navigate(`/shop_single/${item.id}`)}>
+        <div key={index} className='card card2' onClick={()=> navigate(`/shop_single/${item.id}`)} data-aos="zoom-in" data-aos-delay={80 * (index % 4)}>
           <button>{item.btn}</button>
           <img src={item.img} alt="" />
           <h3>{item.name}</h3>
@@ -334,10 +333,10 @@ const Organick = () => {
 
 
     <section className='sect4'>
-      <div>
+      <div data-aos="fade-right">
         <img src={dala} alt="" className='dala'/>
       </div>
-      <div className='dala_div'>
+      <div className='dala_div' data-aos="fade-left" data-aos-delay="150">
         <h3>Eco friendly</h3>
         <h1>Econis is a Friendly <br /> Organic Store</h1>
         <h4>Start with Our Company First</h4>
@@ -351,13 +350,13 @@ const Organick = () => {
 
 
     <section className='sect5'>
-      <div className="dot1">
+      <div className="dot1" data-aos="fade-up" data-aos-delay="0">
         <button>Organic Juice</button>
       </div>
-      <div className="dot2">
+      <div className="dot2" data-aos="fade-up" data-aos-delay="100">
         <button>Organic Food</button>
       </div>
-      <div className="dot3">
+      <div className="dot3" data-aos="fade-up" data-aos-delay="200">
         <button>Nuts Cookis</button>
       </div>
     </section>
@@ -365,7 +364,7 @@ const Organick = () => {
 
 
     <section className='sect6'>
-      <div className='news'>
+      <div className='news' data-aos="fade-up">
         <div>
           <h3>News</h3>
           <h1>Discover weekly content about <br /> organic food, & more</h1>
@@ -376,7 +375,7 @@ const Organick = () => {
       </div>
 
       <div className="more">
-        <div className="M1">
+        <div className="M1" data-aos="fade-right" data-aos-delay="100">
           <div className="why">
             <p className='by'>By Rachi Card</p>
             <h4>The Benefits of Vitamin D & How to Get</h4>
@@ -387,7 +386,7 @@ const Organick = () => {
 
 
         
-        <div className="M2">
+        <div className="M2" data-aos="fade-left" data-aos-delay="150">
           <div className="why">
             <p className='by'>By Rachi Card</p>
             <h4>The Benefits of Vitamin D & How to Get</h4>
@@ -399,7 +398,7 @@ const Organick = () => {
     </section>
 
 
-    <section className='sect7'>
+    <section className='sect7' data-aos="fade-up">
       <h1>Subscribe to <br /> our Newsletter </h1>
       <div className='inp'>
         <input type="text" placeholder='Your Email Address'/>
