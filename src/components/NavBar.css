@@ -258,8 +258,8 @@ select option{
     .modal_flex ul li {
         font-size: 16px;
     }
-    .cart2{
-        display: none;
+     .cart {
+        display: none !important;
     }
 }
 
