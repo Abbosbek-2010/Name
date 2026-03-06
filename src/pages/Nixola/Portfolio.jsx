@@ -9,6 +9,9 @@ import frasm12 from '../../assets/frasm12.png'
 import { useNavigate } from 'react-router-dom'
 import Footer from  '../../components/Footer'
 import NavBar from '../../components/NavBar'
+import hower from '../../assets/hower.png'
+import { HiArrowCircleRight } from "react-icons/hi";
+
 
 
 
@@ -24,36 +27,49 @@ const Portfolio = () => {
     <div className='bolim9'>
       <div className='threee'>
         <div className='navigate' onClick={()=>res2("/portfolio-single")}>
-          <img src={frasm7}/>
           <h4 className='tag12'>Green & TastyLemon</h4>
           <h6 className='tag13'>Fruits</h6>
+          <div className='hower'>
+            {/* <img src={hower}/> */}  <HiArrowCircleRight fontSize={40} color='#7EB693' />
+          </div>
         </div>
-        <div className='navigate'onClick={()=>res2("/carrot")} >
-          <img src={frasm8}/>
+        <div className='navigate1'onClick={()=>res2("/carrot")} >
+       
           <h4 className='tag12'>Organic Carrot</h4>
           <h6 className='tag13'>Farmer</h6>
+           <div className='hower'>
+            {/* <img src={hower}/> */}  <HiArrowCircleRight fontSize={40} color='#7EB693' />
+          </div>
         </div>
-        <div className='navigate' onClick={()=>res2("/rayhon")}>
-          <img src={frasm9}/>
+        <div className='navigate2' onClick={()=>res2("/rayhon")}>
           <h4 className='tag12'>Organic Betel Leaf</h4>
           <h6 className='tag13'>fruits</h6>
+          <div className='hower'>
+            {/* <img src={hower}/> */}  <HiArrowCircleRight fontSize={40} color='#7EB693' />
+          </div>
         </div>
       </div>
        <div className='threee' onClick={()=>res2("/tomato")}>
-        <div className='navigate'>
-          <img src={frasm10}/>
+        <div className='navigate3'>
           <h4 className='tag12'>Natural Tommato</h4>
           <h6 className='tag13'>Fruits</h6>
+          <div className='hower'>
+            {/* <img src={hower}/> */}  <HiArrowCircleRight fontSize={40} color='#7EB693' />
+          </div>
         </div>
-        <div className='navigate'onClick={()=>res2("/portfolio-single")} >
-          <img src={frasm11}/>
+        <div className='navigate4'onClick={()=>res2("/portfolio-single")} >
           <h4 className='tag12'>Black Raspberry</h4>
           <h6 className='tag13'>Farmer</h6>
+          <div className='hower'>
+            {/* <img src={hower}/> */}  <HiArrowCircleRight fontSize={40} color='#7EB693' />
+          </div>
         </div>
-        <div className='navigate' onClick={()=>res2('/lemon')}>
-          <img src={frasm12}/>
+        <div className='navigate5' onClick={()=>res2('/lemon')}>
           <h4 className='tag12'>Honey Orange</h4>
           <h6 className='tag13'>Leaf</h6>
+          <div className='hower'>
+            {/* <img src={hower}/> */}  <HiArrowCircleRight fontSize={40} color='#7EB693' />
+          </div>
         </div>
       </div>
     </div>
