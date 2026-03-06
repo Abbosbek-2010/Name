@@ -178,6 +178,23 @@ select option{
 .search.cart2 {
     display: flex;
 }
+.pud{
+    display: flex;
+    position: relative;
+}
+.pud input{
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    padding-left: 10px;
+    position: relative;
+    left: 55px;
+    background: transparent;
+}
+.homess{
+    margin-left: 20px;
+}
 /* 998px va undan kichik – hamburger + search + cart ham ko‘rinadi */
 @media (max-width: 998px) {
     .bars {

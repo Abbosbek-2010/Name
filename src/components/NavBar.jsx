@@ -29,7 +29,7 @@ const NavBar = () => {
         </div>
         </Link>
         <ul className='ul' id='ull'>
-          <li><Link to="/" className={isActive('/') ? 'nav_active' : ''}>Home</Link></li>
+          <p className='homess'><li><Link to="/" className={isActive('/') ? 'nav_active' : ''}>Home</Link></li></p>
           <li><Link to="/about" className={isActive('/about') ? 'nav_active' : ''}>About</Link></li>
           <select value={currentPageValue} onChange={(e) => navigate(e.target.value)}>
             <option value="/Pages">Pages</option>
@@ -48,7 +48,10 @@ const NavBar = () => {
         </ul>
         <div className="flex">
 
-          <div className="search cart2"><CiSearch /></div>
+          <div className='pud'>
+            <input type="text" placeholder='Search'/>
+            <div className="search cart2"><CiSearch /></div>
+          </div>
           
           <div className='cart' id='id'>
             <div className="cart_one">

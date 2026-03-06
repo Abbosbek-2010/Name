@@ -8,6 +8,15 @@
       "message": "2019-03-16",
       "teacher": "Iure enim am",
       "id": "3d2b"
+    },
+    {
+      "id": "b7e2",
+      "address": "",
+      "email": "",
+      "company": "",
+      "subject": "",
+      "message": ""
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
